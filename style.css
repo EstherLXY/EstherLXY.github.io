@@ -1,8 +1,12 @@
 body{
-    background-color: cornsilk;
+    background-color: oldlace;
     
 }
 
 .btn{
-    background-color: burlywood;
+    color: burlywood;
+}
+
+h4 {
+    color: burlywood;
 }
