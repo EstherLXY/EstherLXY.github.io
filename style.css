@@ -8,6 +8,10 @@ h1, h2, h4 {
     color: burlywood;
 }
 
+h4{
+    margin-bottom: 10px;
+}
+
 #head{
     display: flex;
     justify-content: center;
@@ -16,4 +20,9 @@ h1, h2, h4 {
     width:100%;
     background-color: rgb(158, 195, 207);
     color:white
+}
+
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
