@@ -13,6 +13,7 @@ h1, h2, h4 {
     justify-content: center;
     align-items: center;
     height: 200px;
+    width:100%;
     background-color: rgb(158, 195, 207);
     color:white
 }
