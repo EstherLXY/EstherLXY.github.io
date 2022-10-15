@@ -56,3 +56,7 @@ hr {
     background-color: burlywood;
     color: white;
 }
+
+a{
+    text-decoration: none;
+}
