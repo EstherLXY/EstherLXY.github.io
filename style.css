@@ -29,5 +29,10 @@ iframe{
 }
 
 .card-img-top{
-    height:150px;
+    height:300px;
+    width: auto;
+}
+
+.card{
+    border:0;
 }
