@@ -4,11 +4,12 @@
     color: burlywood;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
     color: burlywood;
 }
 
 #head{
+    height:50px;
     background-color: rgb(158, 195, 207);
     color:white
 }
