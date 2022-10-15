@@ -29,8 +29,8 @@ iframe{
 }
 
 .card-img-top{
-    height:300px;
-    width: auto;
+    height:400px;
+    width:100%;
 }
 
 .card{
