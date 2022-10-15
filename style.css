@@ -9,7 +9,10 @@ h1, h2, h4 {
 }
 
 #head{
-    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
     background-color: rgb(158, 195, 207);
     color:white
 }
