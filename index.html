@@ -16,31 +16,38 @@
 
     <body>
         <div id="head">
-            <img src="materials/ttr-header.png" style="height:50px; margin-right:10px" class="img-fluid rounded" alt="ttr">
+            <img src="materials/ttr-header.png" style="height:75px; margin-right:10px" class="img-fluid rounded" alt="ttr">
             <h3>welcome to esther's little page</h3>
-            <img src="materials/ttr-header.png" style="height:50px; margin-left:10px" class="img-fluid rounded" alt="ttr">
+            <img src="materials/ttr-header.png" style="height:75px; margin-left:10px" class="img-fluid rounded" alt="ttr">
         </div>
 
     
         <div class="card text-center mx-auto" style="width:80%">
-            <img class="card-img-top rounded-circle" style="height:50px; width:50px; background-color: antiquewhite;" src="materials/photo.jpg" alt="self">
+            <img class="card-img-top rounded-circle mx-auto" style="height:200px; width:200px; background-color: antiquewhite;" src="materials/photo.jpg" alt="self">
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="true" href="#">my studies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="false" href="#hobbies">my hobbies</a>
-                </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="studies-tab" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-controls="studies" aria-selected="true">my studies</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="hobbies-tab" data-bs-toggle="tab" data-bs-target="#hobbies" type="button" role="tab" aria-controls="hobbies" aria-selected="true">my my hobbies</button>
+                    </li>
                 </ul> 
             </div>
             <div class="card-body">
-                <h5 class="card-title">hello, i'm esther</h5>
-                <p class="card-text">i'm currently a y3 business and information systems student in SMU. </p>
-            </div>
-            <div class="card-body" id="hobbies">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="studies" role="tabpanel" aria-labelledby="studies">
+                        <h5 class="card-title">hello, i'm esther</h5>
+                        <p class="card-text">i'm currently a y3 business and information systems student in SMU. </p>
+                    </div>
+                    <div class="tab-pane fade show active" id="hobbies" role="tabpanel" aria-labelledby="hobbies">
+                        <h5 class="card-title">i love art, music and learning languages</h5>
+                        <p class="card-text">
+                            
+                        </p>
+                    </div>
+                </div>
+                
             </div>
         </div>
 
@@ -89,16 +96,16 @@
         </div>
         </div>
 
-        <div class="d-flex container my-4 mx-auto justify-content-center" id="ears" style="width:80%">
+        <div class="container my-4 mx-auto" id="ears" style="width:80%">
             <h4 class="row my-4">what my ears appreciate</h4>
             <div class="row d-flex justify-content-center">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/62Y5qbhXckhQrYXE9uQFg2?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
             <div class="row d-flex justify-content-center">
-            <iframe class="row" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1kwEJzug9davNEX0p9nZ7n?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1kwEJzug9davNEX0p9nZ7n?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
             <div class="row d-flex justify-content-center">
-            <iframe class="row" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1XKwG2mozFdC8RvRWvyHVV?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1XKwG2mozFdC8RvRWvyHVV?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
         </div>
 
